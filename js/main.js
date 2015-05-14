@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#signup-submit').click(function () {
     var email = $('#signup-email').val();
-    var url = 'http://thelavaapp.com/subscribe?callback=?&email=' + email;
+    var url = '/subscribe?callback=?&email=' + email;
     $.get(url, function (response) {
       if (response.status === 'error') {
         alert(response.error);
