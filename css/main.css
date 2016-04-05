@@ -4,7 +4,6 @@
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
- */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -189,7 +188,7 @@ h1 {
 }
 
 footer {
-  background: #FF3771;
+  background: ##000000;
   padding: 60px 0;
   color: #fff;
   font-weight: 300;
